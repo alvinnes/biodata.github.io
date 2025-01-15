@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 p {
-  font-size: 23px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -18,12 +18,12 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .foto {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: white;
   border: 3px solid white;
@@ -31,10 +31,11 @@ h2 {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
-a img {
-  width: 80px;
-  height: 80px;
+a i {
   border-radius: 50%;
+  font-size: 2em;
+  margin-right: 1rem;
 }
